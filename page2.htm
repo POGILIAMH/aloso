@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>
+<body background="stand alone.jpg">
+  <style>
+ .container {
+background-color: #fff; /* White background */
+color: #000; /* black text*/
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(250, 250, 10, 10);
+}
+.logo{
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.mission {
+animation: glow 1s infinite alternate; /* Apply the glow animation */
+}
+
+@keyframes glow {
+100% {
+  text-shadow: 0 0 100px rgba(25500, 25500, 10, 10); /* Yellow glow */
+}
+100% {
+  text-shadow: 0 0 20px rgba(25500, 25500, 10, 10); /* Stronger yellow glow */
+}
+}
+ 
+#borderimg { 
+border: 20px solid transparent;
+padding: 25px;
+border-image: url(background.jpg) 30 stretch;
+}
+</style>
+<table border="0">
+  <tr>
+     
+      <td><img src="Sash.jpg" class="logo"></td>
+      <td><h1><center>STAND ALONE <br>SENIOR HIGH SCHOOL</center></h1></td>
+  </tr>
+</table>
+<br>
+<br>
+  <p id="borderimg"> MISSION:<br>To become a skilled and innovative ICT professional, constantly learning and adapting to the ever-evolving technological landscape. I strive to leverage my knowledge and skills to solve real-world problems and contribute to a more connected and technologically advanced future.
+  </p>     
+<br>
+  <br>
+  <br>
+  <style>
+ .container {
+background-color: #fff; /* White background */
+color: #000; /* black text*/
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(250, 250, 10, 10);
+}
+
+.vision {
+animation: glow 1s infinite alternate; /* Apply the glow animation */
+}
+
+@keyframes glow {
+100% {
+  text-shadow: 0 0 100px rgba(25500, 25500, 10, 10); /* Yellow glow */
+}
+100% {
+  text-shadow: 0 0 20px rgba(25500, 25500, 10, 10); /* Stronger yellow glow */
+}
+}
+  </style>
+ <style> 
+#borderimg { 
+border: 20px solid transparent;
+padding: 25px;
+border-image: url(background.jpg) 30 stretch;
+}
+h2 {
+    font-family:cursive;
+    color:rgba(0, 255, 200, 0.995);
+}
+h1 {
+    font-family:cursive;
+    color:rgba(0, 255, 200, 0.995);
+}
+p {
+    font-family:Ariel;
+    color:rgba(70, 126, 190, 0.995);
+}
+</style>
+    
+<p id="borderimg">VISION:<br>ICT students are the future of technology, driven by their passion for innovation and their desire to shape a more connected and technologically advanced world.
+    </p>
+    <br>
+    <br>
+    <style>        
+       .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+  
+        #skills {
+            padding: 50px 20px;
+            background-color: orange;
+            color: white;
+            text-align: center;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .skills-list li {
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 5px;
+            min-width: 150px;
+        }
+      
+    
+  </style>
+</head>    
+
+<body>    
+  <section id="skills" class="container">
+      <h2><i>STRANDS</i></h2>
+      <ul class="skills-list">
+          <li><a href="tvl.htm">TVL</a></li>
+          <li><a href="stem.htm">STEM</a></li>
+          <li><a href="gas.htm">GAS</a></li>
+          <li><a href="humms.htm">HUMSS</a></li>
+      </ul>
+  </section>
+  <button class="btn"><a href="website css.htm">PREV</a></button>
+  <style>
+    .btn {
+  margin: 100px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+.btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* glow */
+.btn::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height:  calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+@keyframes glowing {
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+}
+/* hover */
+.btn:hover::before {
+  opacity: 1;
+}
+.btn:active:after {
+  background: transparent;
+}
+.btn:active {
+  color: #000;
+  font-weight: bold;
+}
+  </style>
+<button class="next"><a href="tvl.htm">NEXT</a></button>
+<style>
+  .next {
+margin: 100px;
+padding: 15px 40px;
+border: none;
+outline: none;
+color: #FFF;
+cursor: pointer;
+position: relative;
+z-index: 0;
+border-radius: 12px;
+}
+.next::after {
+content: "";
+z-index: -1;
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #333;
+left: 0;
+top: 0;
+border-radius: 10px;
+}
+/* glow */
+.next::before {
+content: "";
+background: linear-gradient(
+  45deg,
+  #FF0000, #FF7300, #FFFB00, #48FF00,
+  #00FFD5, #002BFF, #FF00C8, #FF0000
+);
+position: absolute;
+top: -2px;
+left: -2px;
+background-size: 600%;
+z-index: -1;
+width: calc(100% + 4px);
+height:  calc(100% + 4px);
+filter: blur(8px);
+animation: glowing 20s linear infinite;
+transition: opacity .3s ease-in-out;
+border-radius: 10px;
+opacity: 0;
+}
+@keyframes glowing {
+0% {background-position: 0 0;}
+50% {background-position: 400% 0;}
+100% {background-position: 0 0;}
+}
+/* hover */
+.next:hover::before {
+opacity: 1;
+}
+.next:active:after {
+background: transparent;
+}
+.next:active {
+color: #000;
+font-weight: bold;
+}
+</style>

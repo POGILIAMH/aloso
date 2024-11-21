@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STAND ALONE SENIOR HIGH SCHOOL</title>
+    </head>
+    <body>
+        <style>
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width:0%;
+    background:#009688;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.text-box{
+width: 90%;
+color: #fff;
+position: absolute;
+        top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+ }
+.text-box h1{
+font-size: 62px;
+ }
+      .text-box p{
+margin: 10px 0 40px;
+font-size: 14px;
+color: #fff;
+}
+button{
+    width:200px;
+    padding: 15px 0;
+    text-align:center;
+    margin:20 px 10 px;
+    border-radius:25px;
+    font-weight:bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+h1 {
+    font-family:cursive;
+    color:rgba(0, 255, 200, 0.995);
+}
+</style>
+            <div class="banner">
+            <div class="navbar">
+                <img src="SASH.jpg" class="logo"><h1>STAND ALONE SENIOR HIGH SCHOOL</h1>
+                <ul>
+                    <li><a href="page2.htm">HOME</a></li>
+                    <li><a href="about us.htm">ABOUT US</a></li>
+                    <li><a href="page2.htm">STRANDS</a></li>
+                    <li><a href="log in.htm">LOG IN</a></li>                  
+                </ul>
+
+            </div>
+            <div class="text-box">               
+                <h1>Welcome to our website!</h1>
+                <p>We are thrilled to have you here and we hope you will find the information and resources we provide to be valuable and informative.</p>
+                <div>
+                    <a href="page2.htm"><button type="button"><span></span>HOME PAGE</button></a>
+            </div>
+        </div>
+        </body>
+        </html>
+

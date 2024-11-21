@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+
+    <style>
+      .code-box {
+  background-color: #f0f0f0;
+  border: 10px solid #ccc;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+body{
+    background-image: url(keyboard.jpg);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+    background-attachment: fixed;
+    
+    background-size: cover;
+    }
+    </style>
+    <center><pre class="code-box">
+      <h1>TVL</h1>
+</pre>
+    <pre class="code-box">
+      TECHNICAL-VACOTIONAL LIVEHOOD. (TVL ) 
+
+- Technical Skills:
+- Specific trades (e.g., welding, carpentry, electronics, cosmetology)
+- Using tools and equipment
+- Following safety protocols
+
+- Vocational Skills:
+- Business management
+- Marketing and sales
+- Customer service
+- Entrepreneurship
+
+- Livelihood Skills:
+- Financial literacy
+- Work ethics
+- Communication and teamwork
+- Problem-solving
+    </pre>
+    <button class="btn"><a href="page2.htm">PREV</a></button>
+  <style>
+    .btn {
+  margin: 100px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+.btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* glow */
+.btn::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height:  calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+@keyframes glowing {
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+}
+/* hover */
+.btn:hover::before {
+  opacity: 1;
+}
+.btn:active:after {
+  background: transparent;
+}
+.btn:active {
+  color: #000;
+  font-weight: bold;
+}
+  </style>
+<button class="next"><a href="stem.htm">NEXT</a></button>
+<style>
+  .next {
+margin: 100px;
+padding: 15px 40px;
+border: none;
+outline: none;
+color: #FFF;
+cursor: pointer;
+position: relative;
+z-index: 0;
+border-radius: 12px;
+}
+.next::after {
+content: "";
+z-index: -1;
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #333;
+left: 0;
+top: 0;
+border-radius: 10px;
+}
+/* glow */
+.next::before {
+content: "";
+background: linear-gradient(
+  45deg,
+  #FF0000, #FF7300, #FFFB00, #48FF00,
+  #00FFD5, #002BFF, #FF00C8, #FF0000
+);
+position: absolute;
+top: -2px;
+left: -2px;
+background-size: 600%;
+z-index: -1;
+width: calc(100% + 4px);
+height:  calc(100% + 4px);
+filter: blur(8px);
+animation: glowing 20s linear infinite;
+transition: opacity .3s ease-in-out;
+border-radius: 10px;
+opacity: 0;
+}
+@keyframes glowing {
+0% {background-position: 0 0;}
+50% {background-position: 400% 0;}
+100% {background-position: 0 0;}
+}
+/* hover */
+.next:hover::before {
+opacity: 1;
+}
+.next:active:after {
+background: transparent;
+}
+.next:active {
+color: #000;
+font-weight: bold;
+}
+</style>
